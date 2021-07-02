@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Edufold--Blog</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <!-- fontawesome linking -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+    <!-- fontawesome linking end -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Certificate & Onlien Programs For 2021</h1>
+    </section>
+
+    <!-- blogpage content -->
+
+    <div class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="images/certificate.jpg" alt="">
+                <h2>Our Certificate & Online For 2021</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum quod, at dolor odit corrupti corporis, doloribus eos placeat accusamus minus incidunt quos ipsa hic voluptates nam praesentium voluptatem. Laboriosam, omnis!</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores omnis tempore temporibus. Qui natus tenetur dolorem fuga veniam dolorum, ratione laboriosam dolores a voluptate doloremque repudiandae amet ex ab pariatur.</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, eos illo officiis commodi, aperiam placeat rerum alias libero quas id ipsam, animi aut laudantium? Soluta libero aliquid necessitatibus ducimus velit.</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio consequuntur itaque natus sit, excepturi quia? Sequi, molestias tempore, eius deleniti dolores aperiam sunt doloribus possimus cumque culpa harum facilis ipsum!</p>
+                <div class="comment-box">
+                    <h3>Leave a comment</h3>
+                    <form action="" class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter Email" >
+                        <textarea name="" id="" placeholder="Your Comment" rows="5"></textarea>
+                        <button  class="hero-btn red-btn"type="submit">Post Comment</button>
+                    </form>
+                </div>
+            </div>
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+
+                <div class="">
+                    <span>Business Analytics</span>
+                    <span>21</span>
+                </div>
+                <div class="">
+                    <span>Data Science</span>
+                    <span>22</span>
+                </div>
+                <div class="">
+                    <span>Machine Learning</span>
+                    <span>23</span>
+                </div>
+                <div class="">
+                    <span>Computer Science</span>
+                    <span>23</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- footer  -->
+    <section class="footer">
+        <h4>About Us</h4>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem, ipsum dolor sit amet consectetur <br>
+        adipisicing elit. Aperiam ducimus n
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+        </div>
+    </section>
+
+
+    <!-- footer  -->
+    <!--javascript for toggle menu  -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+
+        }
+    </script>
+
+    <!--javascript for toggle menu  -->
+</body>
+
+</html>
